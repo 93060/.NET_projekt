@@ -1,0 +1,121 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Sebastian\\Desktop\\projekt_koncowy_Wiktor\\kod_zrodlowy\\IntegracjaSteamProjekt-master\\IntegracjaSteamProjekt\\IntegracjaSteamProjekt.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Sebastian\\Desktop\\projekt_koncowy_Wiktor\\kod_zrodlowy\\IntegracjaSteamProjekt-master\\IntegracjaSteamProjekt\\IntegracjaSteamProjekt.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Sebastian\\Desktop\\projekt_koncowy_Wiktor\\kod_zrodlowy\\IntegracjaSteamProjekt-master\\IntegracjaSteamProjekt\\IntegracjaSteamProjekt.csproj",
+        "projectName": "IntegracjaSteamProjekt",
+        "projectPath": "C:\\Users\\Sebastian\\Desktop\\projekt_koncowy_Wiktor\\kod_zrodlowy\\IntegracjaSteamProjekt-master\\IntegracjaSteamProjekt\\IntegracjaSteamProjekt.csproj",
+        "packagesPath": "C:\\Users\\Sebastian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sebastian\\Desktop\\projekt_koncowy_Wiktor\\kod_zrodlowy\\IntegracjaSteamProjekt-master\\IntegracjaSteamProjekt\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Sebastian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "Google.Apis.Drive.v3": {
+              "target": "Package",
+              "version": "[1.55.0.2566, )"
+            },
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.27, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Ocelot": {
+              "target": "Package",
+              "version": "[17.0.1, )"
+            },
+            "SoapCore": {
+              "target": "Package",
+              "version": "[1.1.0.24, )"
+            },
+            "SteamWebAPI2": {
+              "target": "Package",
+              "version": "[4.3.2, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
